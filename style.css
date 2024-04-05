@@ -1,0 +1,122 @@
+h1 {
+  position: relative;
+  top: -100px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  color: #ffa663;
+  padding: 10px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./Firefly\ nasreddın\ hoca\ ile\ ilgili\ 42478.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+  word-wrap: break-word;
+  
+}
+
+.sentence {
+  text-align: center;
+  background-color: #8b4513;
+  padding: 20px; 
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 24px;
+  color: #ffffff;
+  border: 1px solid #8b4513;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  
+}
+
+.btn {
+  background-color: #0a5c0a;
+  color: #fff;
+  font-family: inherit;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  transition: all 0.3s ease-in;
+  font-size: 50px;
+  width: 250px;
+  height: 75px;
+  
+}
+
+.btn:hover {
+  background-color: #109010;
+}
+.btn:active {
+  transform: scale(0.98);
+  transform: scale(0.9);
+  outline: none;
+}
+.kım {
+  padding-top: 600px;
+}
+.kım:active {
+  outline: none;
+}
+
+.bg{
+  background: no-repeat center/cover color(#fff);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  filter: blur(0px);
+}
+
+.loading-text{
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: #8b4513;
+}
+.hoca{
+  position: absolute;
+  top: 675px;
+  margin: 0;
+  right: 50px;
+  
+  background-color: #109010;
+  font-size: 25px;
+  border: none;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;  
+  width: 250px;
+}
+a:hover{
+  
+  background-color: #109010 ;
+  color: #7a3b11;
+}
+.hoca:hover{
+  background-color:#109010;
+  color: #7a3b11;
+  text-shadow: 2px 2px 4px #7a3b11; /* Text gölgesi */
+  box-shadow: 0px 0px 15px 5px #7a3b11; /* Kutu gölgesi */
+}
